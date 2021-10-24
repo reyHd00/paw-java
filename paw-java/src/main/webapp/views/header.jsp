@@ -12,44 +12,28 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-                <a class="navbar-item" href="index.jsp">
-                    <img src="../img/logo.png" width="30" height="40">
-                </a>
-
-                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                </a>
-            </div>
-
-            <div id="navbarBasicExample" class="navbar-menu">
-                <div class="navbar-start">
-                    <a class="navbar-item">
-                        Home
-                    </a>
-
-                    <a class="navbar-item">
-                        Documentation
-                    </a>
-
-                </div>
-
-                <div class="navbar-end">
-                    <div class="navbar-item">
-                        <div class="buttons">
-                            <a class="button is-primary">
-                                <strong>Sign up</strong>
-                            </a>
-                            <a class="button is-light">
-                                Log in
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <!-- Inicia los Encabezados de la Página -->
+        <nav class="breadcrumb" aria-label="breadcrumbs">
+            <ul>
+                <li><a href="?menu=1">Inicio</a></li>
+                <li><a href="?menu=2">Login</a></li>
+                <li><a href=”#">Alumnos</a></li>
+                <li><a href=”#">Grupos</a></li>
+            </ul>
         </nav>
+        <br>
+        <section class="hero is-dark">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title">
+                        Control de Asistencias
+                    </h1>
+                    <h2 class="subtitle">
+                        Escolares
+                    </h2>
+                </div>
+            </div>
+        </section>
+        <br>
     </body>
 </html>
